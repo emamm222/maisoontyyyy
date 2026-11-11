@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>11:11 — A Little Piece of My Heart</title>
+<meta name="description" content="هدية صغيرة من القلب، في يوم 11/11.">
+<meta name="theme-color" content="#16060C">
+<meta property="og:type" content="website">
+<meta property="og:title" content="11:11 — A Little Piece of My Heart">
+<meta property="og:description" content="هدية صغيرة من القلب ❤️">
+<meta property="og:locale" content="ar_EG">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23A30035%22%20d%3D%22M12%2021.35l-1.45-1.32C5.4%2015.36%202%2012.28%202%208.5%202%205.42%204.42%203%207.5%203c1.74%200%203.41.81%204.5%202.09C13.09%203.81%2014.76%203%2016.5%203%2019.58%203%2022%205.42%2022%208.5c0%203.78-3.4%206.86-8.55%2011.54L12%2021.35z%22/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;500&display=swap" rel="stylesheet">
+<style>
+:root{--b1:#4A0015;--b2:#65001F;--cr:#A30035;--rose:#E8A0AE;--gold:#D6B46A;--bg:#16060C;--r:'Aref Ruqaa',serif;--a:'Amiri',serif;--t:'Tajawal',sans-serif}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:#f6e6ea;font:clamp(1.1rem,3.8vw,1.35rem)/2 var(--a);overflow-x:hidden;transition:opacity 1s}
+.js body:not(.ld){opacity:0}
+body.lock{overflow:hidden}
+.defs{position:absolute;width:0;height:0}
+.hs{display:block;width:100%;aspect-ratio:1;fill:url(#g);filter:drop-shadow(0 0 22px rgba(214,0,70,.65))}
+.pulse{animation:pl 2.8s ease-in-out infinite}
+@keyframes pl{50%{transform:scale(1.07)}}
+.rq{font-family:var(--r);font-weight:700;line-height:1.8}
+.en{font-style:italic;color:var(--gold);direction:ltr;unicode-bidi:isolate}
+.sm{font:300 .85rem var(--t);letter-spacing:.35em;color:var(--gold)}
+.gold{color:var(--gold)}
+h2{font:700 clamp(1.8rem,6.5vw,3rem)/1.6 var(--r);margin-bottom:2.5rem;color:var(--rose)}
+h2::after{content:"";display:block;width:90px;height:1px;margin:.8rem auto 0;background:linear-gradient(90deg,transparent,var(--gold),transparent)}
+
+/* intro */
+#intro{position:fixed;inset:0;z-index:50;display:grid;place-content:center;justify-items:center;gap:1.5rem;padding:2rem;text-align:center;background:radial-gradient(circle at 50% 40%,var(--b2),var(--bg) 72%);transition:opacity 1s,transform 1.3s,visibility 1s}
+#intro.out{opacity:0;transform:scale(1.15);visibility:hidden}
+#intro .hs{width:96px}
+#intro .rq{font-size:clamp(1.4rem,5.5vw,2.2rem);max-width:30ch}
+.fl{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+#intro>:not(.fl){position:relative}
+
+.btn{font:500 1rem var(--t);color:#fff;border:1px solid var(--gold);background:linear-gradient(135deg,var(--cr),var(--b2));padding:.9rem 2rem;border-radius:99px;cursor:pointer;box-shadow:0 0 30px rgba(163,0,53,.5);transition:.4s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 0 45px rgba(214,180,106,.4)}
+
+/* effects */
+#fx{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:5}
+.p{position:absolute;bottom:-40px;left:var(--x);font-size:var(--s);color:var(--c);opacity:0;text-shadow:0 0 10px currentColor;animation:up var(--d) linear var(--dl) infinite}
+.pt{width:var(--s);height:calc(var(--s)*1.4);background:var(--c);border-radius:60% 0 60% 0;font-size:0;text-shadow:none}
+@keyframes up{10%{opacity:.75}90%{opacity:.45}to{transform:translate(var(--w),-115vh) rotate(var(--rot));opacity:0}}
+#glow{position:fixed;left:-160px;top:-160px;width:320px;height:320px;border-radius:50%;background:radial-gradient(rgba(232,160,174,.17),transparent 65%);pointer-events:none;z-index:6;will-change:transform}
+.cf{position:fixed;z-index:90;pointer-events:none;animation:cf 1.6s ease-out forwards}
+@keyframes cf{from{transform:translate(0,0) scale(.3);opacity:1}to{transform:translate(var(--x),var(--y)) rotate(var(--r)) scale(1);opacity:0}}
+
+/* reveal */
+.js .rv{opacity:0;transform:translateY(30px);filter:blur(4px);transition:opacity 1.3s,transform 1.3s,filter 1.3s;transition-delay:var(--dl,0s)}
+.js .rv.in{opacity:1;transform:none;filter:none}
+
+/* hero */
+.hero{position:relative;overflow:hidden;min-height:100svh;display:grid;place-content:center;justify-items:center;gap:1.4rem;text-align:center;padding:2rem 1.25rem}
+.hero>:not(.orb){position:relative;z-index:1}
+.hero h1{font-size:clamp(2.3rem,9vw,5.2rem);max-width:15ch;background:linear-gradient(180deg,#fff,var(--rose));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 4px 30px rgba(163,0,53,.7))}
+.orb{position:absolute;left:50%;top:50%;width:80vmin;height:80vmin;margin:-40vmin;border-radius:50%;background:radial-gradient(var(--cr),transparent 65%);opacity:.4;filter:blur(40px);transform:translateY(var(--py,0))}
+.cue{position:absolute!important;bottom:1.5rem;color:var(--gold);font-size:2rem;text-decoration:none;animation:bn 2s ease-in-out infinite}
+@keyframes bn{50%{transform:translateY(8px)}}
+
+/* sections */
+.sec{position:relative;isolation:isolate;padding:clamp(4.5rem,13vw,8rem) max(1.25rem,calc((100% - 960px)/2));text-align:center}
+.sec+.sec::before{content:"";position:absolute;inset:0 0 auto;height:160px;z-index:-1;background:linear-gradient(var(--bg),transparent);pointer-events:none}
+.card{background:linear-gradient(145deg,rgba(101,0,31,.6),rgba(74,0,21,.4));border:1px solid rgba(214,180,106,.35);border-radius:22px;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 20px 60px rgba(0,0,0,.45),inset 0 0 50px rgba(232,160,174,.05)}
+
+/* letter */
+.letter{position:relative;max-width:680px;margin:auto;padding:clamp(1.8rem,6vw,3.2rem);text-align:right;cursor:pointer}
+.letter::before{content:"";position:absolute;inset:8px;border:1px solid rgba(214,180,106,.25);border-radius:16px;pointer-events:none}
+#lt p{margin-bottom:1.1rem}
+#lt p:first-child{font:700 1.5em var(--r);color:var(--rose)}
+#lt .en{text-align:left;margin:0}
+.h{color:transparent}
+.cur .t::after{content:"|";color:var(--gold);animation:bk 1s steps(1) infinite}
+@keyframes bk{50%{opacity:0}}
+.hint{display:block;margin-top:1rem;font:300 .8rem var(--t);opacity:.5}
+
+/* our song */
+#song{background:radial-gradient(ellipse at 50% 38%,rgba(163,0,53,.5),rgba(232,160,174,.08) 42%,transparent 72%),var(--b1)}
+.disc{position:relative;width:min(230px,60vw);margin:2.4rem auto 1.2rem}
+.oh{position:absolute;left:calc(50% + var(--x)*1%);top:calc(50% + var(--y)*1%);translate:-50% -50%;color:var(--rose);font-size:18px;opacity:0;scale:.4}
+.playing .oh{animation:oh 3s ease-in-out var(--dl) infinite}
+@keyframes oh{50%{opacity:.9;scale:1}}
+.playing .disc .hs{animation-duration:.95s}
+.ttl{font-size:clamp(2.6rem,12vw,4.6rem);line-height:1.4;background:linear-gradient(var(--gold),#f3e2b3 50%,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.art{font:300 1.15rem/1.7 var(--t);color:var(--rose)}
+.pl{width:min(100%,440px);margin:1.6rem auto 1.4rem;padding:1.6rem;display:grid;gap:1.1rem;justify-items:center}
+.play{width:84px;height:84px;border-radius:50%;border:1px solid var(--gold);background:radial-gradient(circle at 35% 30%,var(--cr),var(--b2));cursor:pointer;display:grid;place-items:center;box-shadow:0 0 0 8px rgba(163,0,53,.18),0 0 40px rgba(163,0,53,.7);transition:.4s}
+.play:hover{transform:scale(1.06)}
+.play::before{content:"";border:solid;border-width:15px 0 15px 25px;border-color:transparent transparent transparent #fff;margin-left:6px}
+.playing .play::before{width:10px;height:28px;border-width:0 7px;border-color:#fff;margin:0}
+.viz{display:flex;gap:4px;align-items:center;justify-content:center;height:56px}
+.viz i{width:4px;height:8px;border-radius:4px;background:linear-gradient(var(--rose),var(--cr))}
+.playing .viz i{animation:eq var(--d) ease-in-out infinite alternate}
+@keyframes eq{to{height:var(--h)}}
+.bar{display:grid;grid-template-columns:auto 1fr auto;gap:.7rem;align-items:center;width:100%;direction:ltr;font:300 .8rem var(--t)}
+.vol{display:flex;gap:.7rem;align-items:center;width:72%;font:300 .85rem var(--t)}
+input[type=range]{width:100%;accent-color:var(--rose);cursor:pointer}
+.msg{margin:0 auto 1rem;padding:.8rem 1.2rem;max-width:420px;border:1px dashed var(--gold);border-radius:14px;color:var(--gold);font-size:.95em;line-height:1.8}
+.quote{max-width:34ch;margin:0 auto;font-size:1.05em;color:var(--rose)}
+
+/* final */
+.fin .hs{width:min(220px,55vw);margin:0 auto 2rem}
+.fin p{margin-bottom:1rem}
+.fin .rq:first-of-type{font-size:clamp(1.5rem,5.5vw,2.4rem)}
+.fin .btn{margin-top:2rem}
+
+/* mini player */
+.mini{display:none;position:fixed;z-index:20;left:max(1rem,env(safe-area-inset-left));bottom:max(1rem,env(safe-area-inset-bottom));align-items:center;gap:.6rem;padding:.55rem 1rem;border-radius:99px;border:1px solid rgba(214,180,106,.5);background:rgba(74,0,21,.78);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);color:#fff;font:500 .8rem var(--t);cursor:pointer}
+body:not(.lock) .mini{display:flex}
+
+@media(prefers-reduced-motion:reduce){*,::before,::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}#fx,#glow{display:none}}
+</style>
+</head>
+<body class="lock">
+<svg class="defs" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E8A0AE"/><stop offset=".45" stop-color="#A30035"/><stop offset="1" stop-color="#65001F"/></linearGradient><symbol id="h" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></symbol></defs></svg>
+<div id="glow" aria-hidden="true"></div><div id="fx" aria-hidden="true"></div>
+
+<!-- ١) شاشة البداية -->
+<section id="intro">
+  <div class="fl" aria-hidden="true"></div>
+  <svg class="hs pulse"><use href="#h"/></svg>
+  <p class="rq">في يوم زي 11/11…<br>كان نفسي أقدملك حاجة تشبه اللي جوا قلبي.</p>
+  <button id="open" class="btn">افتحي هديتك يا ميسونتي ❤️</button>
+</section>
+
+<button id="mini" class="mini" aria-label="تشغيل / إيقاف الأغنية"><span>▶︎</span><span>خليني في حضنك</span></button>
+
+<main>
+<!-- ٢) Hero -->
+<header class="hero" id="top">
+  <div class="orb"></div>
+  <p class="sm rv">11 · 11 · 2026</p>
+  <h1 class="rq rv">إنتِ الحكاية الحلوة في وسط كل الحكايات.</h1>
+  <p class="rv"><b>11 نوفمبر 2026</b><br><span class="en">A day made with love, just for you.</span></p>
+  <a href="#letter" class="cue" aria-label="انزلي لتحت">⌄</a>
+</header>
+
+<!-- ٣) الرسالة (عدّل النص بحرية — كل <p> يُكتب بالتتابع) -->
+<section id="letter" class="sec">
+  <h2 class="rv">رسالة من القلب</h2>
+  <article class="card letter rv"><div id="lt">
+    <p>إلى ميسونتي ❤️</p>
+    <p>يمكن يوم 11/11 بالنسبالك مجرد تاريخ، لكن أنا حبيت أخليه يوم أسيبلك فيه حاجة تفضل فاكرة بيها إن فيه قلب بيحبك بجد.</p>
+    <p>أنا عارف إني زعلتك الفترة اللي فاتت، ويمكن في لحظات مكنتش عارف أوصلك فيها اللي جوايا، بس والله ما كان قصدي أكون سبب في زعلك يوم من الأيام.</p>
+    <p>لو كان بإيدي أرجع أي لحظة ضايقتك فيها، كنت هختار إني أطمن قلبك بدل ما أزعله.</p>
+    <p>أنا مش بقولك الكلام ده عشان أنسى اللي حصل، ولا عشان أبرر لنفسي، أنا بقوله عشان إنتِ غالية عندي، وزعلك مش حاجة عادية بالنسبالي.</p>
+    <p>عايزك تعرفي إن وجودك في حياتي ليه مكانة خاصة، وإن كل صورة وكل ذكرى بينا ليها حتة حلوة جوايا.</p>
+    <p>مش لازم كل يوم يكون مثالي، ومش لازم نكون دايمًا عارفين نقول الصح، بس اللي أتمناه إننا نفضل فاكرين قيمة بعض.</p>
+    <p>كل 11/11 وإنتِ حتة حلوة من قلبي، وكل يوم وإنتِ بخير وسعيدة.</p>
+    <p>بحبك يا ميسونتي ❤️</p>
+    <p class="en">From Mody, with all my heart.</p>
+  </div></article>
+  <small class="hint">(اضغطي على الرسالة لتظهر كاملة)</small>
+</section>
+
+<!-- ٦) أغنيتنا -->
+<section id="song" class="sec">
+  <h2 class="rv">في أغاني بتتسمع… وأغاني بتحسها ❤️</h2>
+  <p class="rv">ودي كل ما بسمعها، بفتكرك.</p>
+  <div class="disc"><svg class="hs pulse"><use href="#h"/></svg></div>
+  <h3 class="ttl rq">خليني في حضنك</h3>
+  <p class="art">تامر عاشور<br><span class="sm">TAMER ASHOUR</span></p>
+  <div class="card pl">
+    <button id="pp" class="play" aria-label="تشغيل"></button>
+    <div class="viz" id="viz" aria-hidden="true"></div>
+    <div class="bar"><span id="cur">0:00</span><input id="seek" type="range" min="0" max="1000" value="0" aria-label="شريط التقدم"><span id="dur">0:00</span></div>
+    <label class="vol"><span>الصوت</span><input id="vol" type="range" min="0" max="1" step=".05" value=".8"></label>
+  </div>
+  <p id="msg" class="msg" hidden>الأغنية لسه في الطريق ليكِ… 🎵<br><small>(ضيف الملف: assets/music/our-song.mp3)</small></p>
+  <p class="quote rv">مش عارف إذا كانت الأغنية دي بتوصف اللي جوايا بالظبط، بس كل اللي أعرفه إنك وإنتِ في بالي… الدنيا بتحلى في عيني. ❤️</p>
+  <audio id="au" src="assets/music/our-song.mp3" preload="metadata" playsinline></audio>
+</section>
+
+<!-- ٧) الخاتمة -->
+<section id="end" class="sec fin">
+  <svg class="hs pulse rv"><use href="#h"/></svg>
+  <p class="rq rv">ولو كان ليا أمنية في يوم 11/11…<br>فهي إن قلبك يفضل مبسوط.</p>
+  <p class="rq gold rv">بحبك يا ميسونتي ❤️</p>
+  <p class="en rv">Forever yours,<br>Mody</p>
+  <button id="cf" class="btn rv">اضغطي هنا ✨</button>
+</section>
+</main>
+
+<script>
+(()=>{
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],
+  rm=matchMedia('(prefers-reduced-motion:reduce)').matches,H='♥\uFE0E',R=Math.random,
+  COL=['#E8A0AE','#A30035','#D6B46A'],wait=ms=>new Promise(r=>setTimeout(r,ms));
+document.documentElement.classList.add('js');
+const go=()=>document.body.classList.add('ld');
+addEventListener('load',go);setTimeout(go,2500);
+
+/* قلوب وبتلات عائمة (عدد قليل للحفاظ على الأداء) */
+function rain(box,n,petal){for(let i=0;i<n;i++){const e=document.createElement('span');
+  e.className='p'+(petal?' pt':'');e.textContent=petal?'':H;
+  e.style.cssText=`--x:${R()*100}%;--s:${petal?9+R()*8:12+R()*18}px;--d:${11+R()*12}s;--dl:${-R()*22}s;--w:${(R()-.5)*140}px;--rot:${R()*360}deg;--c:${COL[i%3]}`;
+  box.appendChild(e)}}
+if(!rm)rain($('#intro .fl'),16);
+
+/* مراقب الظهور التدريجي */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.15});
+
+/* الكتابة التدريجية للرسالة */
+const ps=$$('#lt p'),tx=ps.map(p=>p.textContent);let skip=0,typed=0;
+ps.forEach(p=>p.innerHTML='<span class="t"></span><span class="h"></span>');
+const put=(i,j)=>{ps[i].children[0].textContent=tx[i].slice(0,j);ps[i].children[1].textContent=tx[i].slice(j)};
+const full=()=>{ps.forEach((p,i)=>{put(i,tx[i].length);p.classList.remove('cur')});$('.hint')?.remove()};
+async function type(){
+  for(let i=0;i<ps.length;i++){ps.forEach((p,k)=>p.classList.toggle('cur',k==i));
+    for(let j=1;j<=tx[i].length;j++){if(skip||rm)return full();put(i,j);await wait(22)}
+    await wait(300)}
+  full()}
+$('#lt').parentNode.onclick=()=>{skip=1;full()};
+new IntersectionObserver((es,o)=>{if(es[0].isIntersecting&&!typed){typed=1;o.disconnect();type()}},{threshold:.35}).observe($('#lt'));
+
+/* فتح الهدية */
+$('#open').onclick=()=>{
+  $('#intro').classList.add('out');document.body.classList.remove('lock');scrollTo(0,0);
+  if(!rm){rain($('#fx'),10);rain($('#fx'),8,1)}
+  $$('.hero .rv').forEach((e,i)=>e.style.setProperty('--dl',.4+i*.3+'s'));
+  $$('.rv').forEach(e=>io.observe(e));
+  setTimeout(()=>$('#intro').remove(),1400)};
+
+/* وهج الماوس + بارالاكس خفيف */
+if(matchMedia('(hover:hover)').matches&&!rm)addEventListener('pointermove',e=>{$('#glow').style.transform=`translate(${e.clientX}px,${e.clientY}px)`},{passive:true});
+let tick=0;const orb=$('.orb');
+if(!rm)addEventListener('scroll',()=>{if(!tick){tick=1;requestAnimationFrame(()=>{orb.style.setProperty('--py',scrollY*.25+'px');tick=0})}},{passive:true});
+
+/* أغنيتنا — عنصر صوت واحد لكل الموقع، لا يبدأ تلقائيًا ولا يُعاد عند التنقل */
+const au=$('#au'),pp=$('#pp'),mini=$('#mini'),sg=$('#song'),sk=$('#seek'),msg=$('#msg');
+$('#viz').innerHTML=Array.from({length:26},()=>`<i style="--h:${14+R()*42}px;--d:${.35+R()*.6}s"></i>`).join('');
+$('.disc').insertAdjacentHTML('beforeend',Array.from({length:10},(_,i)=>{const a=i*Math.PI/5;
+  return`<b class="oh" style="--x:${50+Math.cos(a)*68};--y:${50+Math.sin(a)*68};--dl:${i*.3}s">${H}</b>`}).join(''));
+const fmt=s=>isFinite(s)?Math.floor(s/60)+':'+String(Math.floor(s%60)).padStart(2,'0'):'0:00';
+const set=p=>{sg.classList.toggle('playing',p);pp.setAttribute('aria-label',p?'إيقاف مؤقت':'تشغيل');mini.firstChild.textContent=p?'❚❚':'▶\uFE0E'};
+const missing=()=>{msg.hidden=false;set(false)};
+const toggle=()=>{if(au.paused){const r=au.play();r&&r.catch(missing)}else au.pause()};
+pp.onclick=mini.onclick=toggle;
+au.addEventListener('error',missing);
+au.onplay=()=>{msg.hidden=true;set(true)};au.onpause=au.onended=()=>set(false);
+au.onloadedmetadata=()=>{$('#dur').textContent=fmt(au.duration);msg.hidden=true};
+au.ontimeupdate=()=>{sk.value=au.duration?au.currentTime/au.duration*1000:0;$('#cur').textContent=fmt(au.currentTime)};
+sk.oninput=()=>{if(au.duration)au.currentTime=sk.value/1000*au.duration};
+$('#vol').oninput=e=>au.volume=e.target.value;au.volume=.8;
+/* iOS يتجاهل التحكم البرمجي في الصوت: يُخفى المنزلق ويُستخدم زر الصوت في الجهاز */
+if(/iP(hone|ad|od)/.test(navigator.userAgent)||(navigator.platform=='MacIntel'&&navigator.maxTouchPoints>1))$('.vol').hidden=true;
+
+/* قلوب Confetti */
+$('#cf').onclick=e=>{const b=e.currentTarget.getBoundingClientRect();
+  for(let i=0;i<36;i++){const s=document.createElement('span'),a=R()*6.28,d=80+R()*190;
+    s.className='cf';s.textContent=H;
+    s.style.cssText=`left:${b.left+b.width/2}px;top:${b.top+b.height/2}px;--x:${Math.cos(a)*d}px;--y:${Math.sin(a)*d-100}px;--r:${R()*360}deg;color:${COL[i%3]};font-size:${14+R()*16}px`;
+    document.body.appendChild(s);s.onanimationend=()=>s.remove()}};
+
+})();
+</script>
+</body>
+</html>
